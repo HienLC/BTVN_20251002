@@ -132,3 +132,125 @@
     top: 15px;
     right: 15px;
 }
+
+.product>div>h3 {
+    /* Product Name */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 120%;
+/* identical to box height, or 29px */
+
+/* Color / Gray 1 */
+color: #3A3A3A;
+}
+
+.product>div>p {
+    /* Sort Description */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+
+/* Color / Gray 3 */
+color: #898989;
+}
+
+.product>div>div>span:first-child {
+    /* Fix Price */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 150%;
+/* identical to box height, or 30px */
+
+/* Color / Gray 1 */
+color: #3A3A3A;
+}
+
+.product>div>div>span:last-child {
+    /* Fix Price */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+text-decoration-line: line-through;
+
+/* Color / Gray 4 */
+color: #B0B0B0;
+}
+
+.product>div>div {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product {
+    position: relative;
+}
+
+.product .hover {
+    /* Pop Up */
+/*background-color: #3A3A3A;
+opacity: 0.72;*/
+background-color: color(srgb 0.23 0.23 0.23 / 0.72);
+position: absolute;
+top:0;
+left: 0;
+width: 100%;
+height: 100%;
+display:flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+transition: all 0.5s;
+opacity: 0;
+visibility: hidden;
+}
+
+.product:hover .hover {
+    opacity: 1;
+    visibility: visible;
+}
+
+.product .add,.hover-button {
+    width: 100%;
+}
+
+.product .hover .add {
+background: #FFFFFF;
+/* Add to cart */
+padding-top: 10px;
+padding-bottom: 10px;
+
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+
+/* Primary */
+color: #B88E2F;
+}
+
+.product .hover .hover-button {
+    /* Like */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 150%;
+color: #FFFFFF;
+flex: none;
+order: 1;
+flex-grow: 0;
+width: 100%
+}
