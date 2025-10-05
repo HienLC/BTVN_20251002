@@ -1,0 +1,134 @@
+:root {
+    --main-color: #9F9F9F;
+    --black1: rgba(58, 58, 58, 1);
+    --gray1: rgba(159, 159, 159, 1);
+    --gray2: rgba(217, 217, 217, 1);
+    --black2: rgba(36, 36, 36, 1);
+    --orange1: rgba(249, 241, 231, 1);
+    --orange2: rgba(255, 199, 0, 1);
+    --orange3: rgba(255, 199, 0, 1);
+    --orange4: rgba(184, 142, 47, 1);
+    --primary-font: 'Poppins', serif;
+    --second-font: 'Montserrat', serif;
+    color: var(--main-color);
+    font-family: var(--primary-font);
+    font-size: 1rem;
+}
+
+.container {
+    max-width: 1236px !important;
+}
+
+.header-container {
+    max-width: 1286px;
+    padding-top: 24.5px;
+    padding-bottom: 24.5px;
+}
+
+.montserrat {
+    font-family: var(--second-font);
+}
+
+.logo-h3 {
+    font-size: 34px;
+}
+
+.logo {
+    gap: 5px;
+}
+
+.menu ul {
+    gap: 75px;
+}
+
+.icon img {
+    width: 28px;
+    height: 28px;
+}
+
+.icon {
+    gap: 45px;
+}
+
+/* header >div{
+    justify-content: space-around;
+} */
+.menu ul li a {
+    color: black;
+    font-weight: Medium;
+}
+
+.hero-section {
+    background-image: url(./asset/img/bg1.png);
+    padding-top: 155px;
+    padding-bottom: 115px;
+    padding-right: 60px;
+}
+
+.hero-section-box h5 {
+    font-weight: 600;
+
+}
+
+.hero-section-box h3 {
+    font-size: 52px;
+    font-weight: bold;
+    white-space: pre-line;
+}
+
+.hero-section-box p {
+    font-size: 18px;
+    font-weight: medium;
+
+}
+
+.hero-section-box a {
+    padding: 25px 72px;
+    /* display: block; */
+    display: inline-block;
+    font-weight: bold;
+    background-color: var(--orange4);
+    color: #ffffff;
+    margin-top: 46px;
+
+}
+
+.hero-section-box {
+    background-color: #FFF3E3;
+    max-width: 643px;
+    padding: 62px 43px 37px 39px;
+}
+
+.section-browse {
+    padding-left: 26.5px;
+    padding-right: 26.5px;
+}
+
+/* .section-product >div{
+    gap: 32px;
+} */
+.section-product .product {
+    width: calc(25% - 24px);
+}
+
+.product>div {
+    background-color: rgba(244, 245, 247, 1);
+}
+
+.product>div:last-child {
+    padding: 16px 30px 20px 16px;
+
+}
+
+.sale {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 15px;
+    right: 15px;
+}
